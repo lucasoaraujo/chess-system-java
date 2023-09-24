@@ -1,7 +1,7 @@
 package boardgame;
 
 public class Position {
-	
+	// é uma classe da camada de tabueiro e representa uma posiçao no tabuleiro, ela vai ter linha e coluna
 	private int row;
 	private int column;
 	
@@ -25,6 +25,7 @@ public class Position {
 	public void setColumn(int column) {
 		this.column = column;
 	}
+	
 	
 	public String toString() {
 		return row + ", " + column;
